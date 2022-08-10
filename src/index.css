@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.screen {
+  margin: 5px;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 36px;
+  border-radius: 10px;
+}
+
+
+
+.container3 {
+  position: absolute;
+  border-radius: 10px;
+}
+
+.container4 {
+  position: absolute;
+  top: 350px;
+  border-radius: 10px;
+}
+
+
+
+.first {
+  position: absolute;
+  border-radius: 5px;
+  width: 160px;
+  height: 160px;
+  left: 20px;
+  top: 168.94px;
+  color: #06244B;
+  background-color: #B9D4F9;
+
+}
+
+.text {
+  position: absolute;
+  top: 60px;
+  left: 14px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+
+  /* identical to box height, or 150% */
+  color: #06244B;
+}
+
+.rect1 {
+  position: absolute;
+  width: 64px;
+  height: 8px;
+  left: 14px;
+  top: 130.94px;
+  z-index: 100;
+  background: #2F80ED;
+  border-radius: 4px;
+}
+
+.rect2 {
+  position: absolute;
+  width: 110px;
+  height: 8px;
+  left: 34px;
+  top: 130.94px;
+  z-index: 99;
+  background: #ffff;
+  border-radius: 4px;
+}
+
+.second {
+  position: absolute;
+  border-radius: 5px;
+
+  width: 160px;
+  height: 160px;
+  left: 180px;
+  margin-left: 20px;
+  top: 168.94px;
+  color: #06244B;
+  background-color: #B9D4F9;
+
+
+}
+
+.asset {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 14px;
+  top: 14px;
+}
+
+.head {
+  margin-left: 20px;
+  color: #06244B;
+  margin-top: 50px;
+}
+
+.para {
+  margin-left: 20px;
+  color: #666666;
+}
+
+footer {
+  position: absolute;
+  top: 750px;
+  left: 30px;
+}
+
+footer .one {
+  margin-left: 15px;
+  margin-right: 70px;
+}
+
+footer .two {
+  margin-right: 70px;
+}
+
+footer .three {
+  margin-right: 70px;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
